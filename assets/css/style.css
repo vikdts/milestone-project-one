@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fahkwang:wght@300&family=Kanit:wght@300&family=Lato:wght@300&family=Montserrat:wght@300&display=swap');
 
 * {
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
     border: none;
@@ -108,9 +109,66 @@ video {
     z-index: 0;
 }
 
-.main-content{
+.main-content {
     height: 650px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     background-color: #000000;
+    width: 100%;
+    column-gap: 50px;
+    /* margin: 100px 50px 100px 50px; */
+    align-items: center;
+}
+
+#home-container-1 {
+    border: 2px solid #E3BB8A;
+    background-color: #000000;
+    color: #ffffff;
+    display: grid;
+    /* text-align: left; */
+    grid-column-start: 1;
+    grid-row-start: row1-start;
+    height: 450px;
+    margin: 100px 0 100px 50px;
+    padding: 0;
+    text-align: center;
+}
+
+#home-container-1>h1 {
+    font-family: 'Fahkwang', sans-serif, 'Montserrat';
+    font-size: 30px;
+    text-align: center;
+    margin-top: 100px;
+    line-height: 10px;
+}
+
+#home-container-1>p {
+    font-family: 'Fahkwang', sans-serif, 'Montserrat';
+    font-size: 20px;
+    text-align: left;
+    margin: 0 50px 50px 50px;
+}
+
+#home-container-2 {
+    border: 2px solid #E3BB8A;
+    background-color: #000000;
+    color: #ffffff;
+    display: grid;
+    grid-column-start: 2;
+    grid-row-start: row1-start;
+    height: 450px;
+    margin: 100px 50px 100px 0;
+    text-align: center;
+}
+
+#courses-btn {
+    border: 2px solid #E3BB8A;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Fahkwang', sans-serif, 'Montserrat';
+    font-size: 30px;
+    width: 50%;
+    margin-top: 85px;
 }
 
 /* ABOUT */
