@@ -432,3 +432,213 @@ a {
     padding: 2px;
     color: #ffffff;
 }
+
+/* media queries */
+
+/* for larger to medium screens size from 1200px wide and down */
+
+@media screen and (max-width: 1200px) {
+    #home-content {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        width: 100%;
+        height: auto;
+        row-gap: 50px;
+        column-gap: 0;
+        /* justify-content: center;
+        align-items: center; */
+        margin: 100px 50px 100px 50px;
+        padding: 0;
+
+    }
+
+         #courses-container-1 {
+        border: 1px solid #E3BB8A;
+        background-color: #000000;
+        color: #ffffff;
+        display: grid;
+        text-align: left;
+        grid-row-start: 1;
+        grid-column-start: column1-start;
+
+        grid-column: 1 / 6;
+        height: auto;
+        width: 100%;
+    }
+
+         #courses-container-2 {
+        border: 1px solid #E3BB8A;
+        background-color: #000000;
+        color: #ffffff;
+        display: grid;
+        grid-row-start: 2;
+        grid-column-start: column1-start;
+        grid-column: 1 / 6;
+        height: auto;
+        margin: 0;
+        width: 100%;
+
+    }
+
+         #courses-container-3 {
+        border: 1px solid #E3BB8A;
+        background-color: #000000;
+        color: #ffffff;
+        display: grid;
+        grid-row-start: 3;
+        grid-column-start: column1-start;
+        grid-column: 1 / 6;
+        height: auto;
+        width: 100%;
+
+    }
+}
+
+/* for medium screen sizes from 950px wide and down */
+
+@media screen and (max-width: 950px) {
+    #home-content {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        width: 100%;
+        height: auto;
+        row-gap: 50px;
+        column-gap: 0;
+        justify-content: center;
+        align-items: center;
+        margin: 100px 50px 100px 50px;
+        padding: 0;
+    }
+
+        #home-container-1 {
+        border: 1px solid #E3BB8A;
+        background-color: #000000;
+        color: #ffffff;
+        display: grid;
+        grid-row-start: 1;
+        grid-column-start: column1-start;
+        grid-column: 1 / 6;
+        height: auto;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+         #home-container-1>h1 {
+        margin-bottom: 50px;
+    }
+
+
+         #home-container-2 {
+        /* border: 1px solid #E3BB8A; */
+        background-color: #000000;
+        color: #ffffff;
+        display: grid;
+        grid-row-start: 2;
+        grid-column-start: column1-start;
+        grid-column: 1 / 6;
+        height: auto;
+        width: 100%;
+    }
+
+    #courses-btn {
+        border: 2px solid #E3BB8A;
+        background-color: #000000;
+        color: #ffffff;
+        font-family: 'Fahkwang', sans-serif, 'Montserrat';
+        font-size: 30px;
+        width: 100%;
+        /* margin-top: 85px; */
+        padding: 10px 0 10px 0;
+    }
+
+
+
+
+    #contact-content {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        width: 100%;
+        height: auto;
+        row-gap: 50px;
+        column-gap: 0;
+        /* justify-content: center;
+        align-items: center; */
+        margin: 100px 50px 100px 50px;
+        padding: 0;
+    }
+
+        #contact-container-1 {
+        border: 1px solid #E3BB8A;
+        background-color: #000000;
+        color: #ffffff;
+        display: grid;
+        grid-row-start: 1;
+        grid-column-start: column1-start;
+        grid-column: 1 / 6;
+        height: auto;
+        width: 100%;
+    }
+
+    #contact-container-2 {
+        border: 1px solid #E3BB8A;
+        background-color: #000000;
+        color: #ffffff;
+        display: grid;
+        grid-row-start: 2;
+        grid-column-start: column1-start;
+        grid-column: 1 / 6;
+        height: auto;
+        width: 100%;
+    }
+}
+
+/* for medium screen sizes from 800px wide and down */
+
+@media screen and (max-width: 800px) {
+
+
+    #menu,
+    li {
+
+        /* justify-content: center; */
+        color: #ffffff;
+        margin: 5px;
+        position: relative;
+        top: 35px;
+        font-size: 15px;
+    }
+
+
+
+    #footer-container {
+        color: #ffffff;
+        display: block;
+        /* grid-template-rows: repeat(3, 1fr); */
+        justify-items: center;
+        justify-content: center;
+    }
+
+    #footer-contact {
+        text-align: center;
+
+    }
+
+
+    #social-media {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+
+
+
+    footer {
+        height: 400px;
+    }
+
+}
