@@ -108,8 +108,79 @@ video {
     z-index: 0;
 }
 
+.main-content{
+    height: 650px;
+    background-color: #000000;
+}
+
 /* ABOUT */
 
 /* COURSES */
 
 /* CONTACT */
+
+/* FOOTER */
+
+footer {
+    height: 200px;
+    background-color: #000000;
+}
+
+footer>hr {
+    border: 1px solid #E3BB8A;
+    color: #ffffff;
+
+}
+
+#footer-container {
+    color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+
+
+
+}
+
+#footer-contact>p {
+    font-family: 'Fahkwang', sans-serif, 'Montserrat';
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+#footer-contact {
+    padding: 75px 0 50px 0;
+    color: #ffffff;
+    display: grid;
+
+}
+
+#social-media {
+    padding: 75px 0 50px 0;
+    color: #ffffff;
+    font-size: 20px;
+    display: grid;
+}
+
+#social-media>p {
+    font-size: 18px;
+}
+
+
+
+#footer-logo {
+    margin-top: 5px;
+    display: grid;
+}
+
+#social-media,
+a {
+    display: inline;
+}
+
+#social-icon {
+    font-size: 16px;
+    padding: 2px;
+    color: #ffffff;
+}
