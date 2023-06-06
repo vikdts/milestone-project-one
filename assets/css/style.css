@@ -91,8 +91,8 @@ li {
 }
 
 
-.main-image {
-    height: 350px;
+#home-image{
+height: 350px;
     display: grid;
     background-color: none;
     position: relative;
@@ -173,6 +173,16 @@ video {
 
 /* ABOUT */
 
+
+
+#about-image{
+        width: 100vw;
+            height: 350px;
+            object-fit: cover;
+            position: absolute;
+            z-index: 0;
+}
+
 #about-content {
     height: 650px;
     display: grid;
@@ -214,6 +224,14 @@ video {
 }
 
 /* COURSES */
+
+#courses-image {
+    width: 100vw;
+    height: 350px;
+    object-fit: cover;
+    position: absolute;
+    z-index: 0;
+}
 
 #courses-content>h2 {
     font-size: 40px;
@@ -271,6 +289,14 @@ video {
 
 /* CONTACT */
 
+#contact-image {
+    width: 100vw;
+    height: 350px;
+    object-fit: cover;
+    position: absolute;
+    z-index: 0;
+}
+
 #contact-content {
     display: grid;
     grid-template-columns: 1fr;
@@ -308,7 +334,7 @@ video {
     text-align: center;
 }
 
-#contact-container-1{
+#contact-container-1 {
     height: 241px;
     justify-self: center;
     box-sizing: border-box;
@@ -453,7 +479,7 @@ a {
 
     }
 
-         #courses-container-1 {
+    #courses-container-1 {
         border: 1px solid #E3BB8A;
         background-color: #000000;
         color: #ffffff;
@@ -467,7 +493,7 @@ a {
         width: 100%;
     }
 
-         #courses-container-2 {
+    #courses-container-2 {
         border: 1px solid #E3BB8A;
         background-color: #000000;
         color: #ffffff;
@@ -481,7 +507,7 @@ a {
 
     }
 
-         #courses-container-3 {
+    #courses-container-3 {
         border: 1px solid #E3BB8A;
         background-color: #000000;
         color: #ffffff;
@@ -512,7 +538,7 @@ a {
         padding: 0;
     }
 
-        #home-container-1 {
+    #home-container-1 {
         border: 1px solid #E3BB8A;
         background-color: #000000;
         color: #ffffff;
@@ -526,12 +552,12 @@ a {
         padding: 0;
     }
 
-         #home-container-1>h1 {
+    #home-container-1>h1 {
         margin-bottom: 50px;
     }
 
 
-         #home-container-2 {
+    #home-container-2 {
         /* border: 1px solid #E3BB8A; */
         background-color: #000000;
         color: #ffffff;
@@ -571,7 +597,7 @@ a {
         padding: 0;
     }
 
-        #contact-container-1 {
+    #contact-container-1 {
         border: 1px solid #E3BB8A;
         background-color: #000000;
         color: #ffffff;
