@@ -482,7 +482,7 @@ video {
     /* margin-top: 10px; */
 }
 
-.drop-btn {
+/* .drop-btn {
     border: 2px solid #ffffff;
     background-color: #E3BB8A;
     color: #ffffff;
@@ -513,22 +513,46 @@ video {
     display: block;
 }
 
-/* Change color of dropdown links on hover */
 .dropdown-content a:hover {
     background-color: #ffffff;
     color: #E3BB8A;
 }
 
-/* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
     display: block;
     background-color: #ffffff;
     color: #E3BB8A;
 }
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
     background-color: #3e8e41;
+} */
+
+#courses-label {
+    width: 48.3%;
+    float: left;
+    color: #ffffff;
+    margin-top: 10px;
+    border: 2px solid #ffffff;
+    background-color: #000000;
+    color: #E3BB8A;
+    height: 36.5px;
+    line-height: 36.5px;
+    font-size: 14px;
+    margin: 0;
+    vertical-align: center;
+    text-align: center;
+}
+
+#course-list {
+    border: 2px solid #ffffff;
+    background-color: #000000;
+    color: #E3BB8A;
+    width: 49%;
+    float: right;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
 }
 
 #message {
