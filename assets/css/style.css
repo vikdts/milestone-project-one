@@ -111,14 +111,14 @@ video {
 }
 
 #home-content {
-    height: 700px;
+    /* height: 450px; */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    column-gap: 50px;
     background-color: #000000;
     width: 100%;
-    column-gap: 50px;
-    /* margin: 100px 50px 100px 50px; */
     align-items: center;
+    margin: 50px;
 }
 
 #home-container-1 {
@@ -129,8 +129,8 @@ video {
     /* text-align: left; */
     grid-column-start: 1;
     grid-row-start: row1-start;
-    height: 600px;
-    margin: 50px 0 50px 50px;
+    height: 350px;
+    /* margin: 50px 0 50px 0; */
     padding: 0;
     text-align: center;
 }
@@ -139,17 +139,15 @@ video {
     font-family: 'Fahkwang', sans-serif, 'Montserrat';
     font-size: 30px;
     text-align: center;
-    /* margin-top: 100px;
-    line-height: 50px; */
-
+    margin: 25px 0 0 0;
 }
 
 #home-container-1>p,
 #home-container-2>p {
-    font-family: 'Fahkwang', sans-serif, 'Montserrat';
-    font-size: 20px;
+    font-family: 'Montserrat', 'Fahkwang', sans-serif;
+    font-size: 15px;
     text-align: left;
-    /* margin: 0 50px 50px 50px; */
+    margin: 20px;
 }
 
 #home-container-2 {
@@ -159,33 +157,23 @@ video {
     display: grid;
     grid-column-start: 2;
     grid-row-start: row1-start;
-    height: 600px;
-    margin: 50px 50px 50px 0;
+    height: 350px;
+    /* margin: 50px 0 50px 0; */
     text-align: center;
 }
 
-#home-container-2>a {
-    display: block;
-    margin: 0;
-    padding: 0;
-}
 
 #about-btn {
-    /* border: 2px solid #ffffff; */
+    border: 2px solid #ffffff;
     background-color: #E3BB8A;
     color: #000000;
     font-family: 'Fahkwang', sans-serif, 'Montserrat';
-    font-size: 30px;
+    font-size: 20px;
     width: 50%;
 
-    display: block;
-    margin: 0;
-    padding: 0;
-}
 
-#about-btn:hover {
-    /* color: #E3BB8A; */
-    background-color: #E3BB8A;
+    margin: 25px 0 0 0;
+    padding: 5px;
 }
 
 /* ABOUT */
@@ -212,11 +200,11 @@ video {
     column-gap: 50px;
     /* margin: 100px 50px 100px 50px; */
     align-items: center;
-    height: 850px;
+
 }
 
 #about-container-1 {
-    border: 2px solid #E3BB8A;
+    border: 2px solid #ffffff;
     background-color: #000000;
     color: #ffffff;
     display: grid;
@@ -231,7 +219,7 @@ video {
 }
 
 #about-container-2 {
-    border: 2px solid #E3BB8A;
+    border: 2px solid #ffffff;
     background-color: #000000;
     color: #ffffff;
     display: grid;
@@ -245,7 +233,8 @@ video {
 #about-container-1>h2,
 #about-container-2>h2 {
     font-family: 'Fahkwang', sans-serif, 'Montserrat';
-    font-size: 30px;
+    font-size: 25px;
+    text-transform: uppercase;
     text-align: center;
     margin-top: 30px;
 }
@@ -253,29 +242,28 @@ video {
 #about-container-1>p,
 #about-container-2>p {
     font-family: 'Fahkwang', sans-serif, 'Montserrat';
-    font-size: 20px;
+    font-size: 15px;
     text-align: left;
     margin: 10px 50px 10px 50px;
 }
 
 #courses-btn {
-    border: 2px solid #E3BB8A;
-    background-color: #000000;
-    color: #ffffff;
-    font-family: 'Fahkwang', sans-serif, 'Montserrat';
-    font-size: 30px;
-    width: 50%;
-}
-
-#courses-btn:hover {
-    /* color: #E3BB8A; */
+    border: 2px solid #ffffff;
     background-color: #E3BB8A;
+    color: #000000;
+    font-family: 'Fahkwang', sans-serif, 'Montserrat';
+    font-size: 25px;
+    text-transform: uppercase;
+    width: 50%;
+    margin-top: 30px;
 }
 
 .img-about {
     object-fit: cover;
     height: 400px;
     width: 100%;
+    border-top: 2px solid #ffffff;
+    margin: 0;
 }
 
 
@@ -312,6 +300,7 @@ video {
     color: #ffffff;
     text-align: left;
     margin: 10px;
+    font-family: 'Fahkwang', sans-serif, 'Kanit', 'Montserrat';
 }
 
 #courses-content {
@@ -321,12 +310,12 @@ video {
     background-color: #000000;
     width: 100%;
     column-gap: 50px;
-    margin: 100px 50px 100px 50px;
+    margin: 50px;
     align-items: center;
 }
 
 #courses-container-1 {
-    border: 2px solid #E3BB8A;
+    border: 2px solid #ffffff;
     background-color: #000000;
     color: #ffffff;
     display: grid;
@@ -337,7 +326,7 @@ video {
 }
 
 #courses-container-2 {
-    border: 2px solid #E3BB8A;
+    border: 2px solid #ffffff;
     background-color: #000000;
     color: #ffffff;
     display: grid;
@@ -347,7 +336,7 @@ video {
 }
 
 #courses-container-3 {
-    border: 2px solid #E3BB8A;
+    border: 2px solid #ffffff;
     background-color: #000000;
     color: #ffffff;
     display: grid;
@@ -358,22 +347,23 @@ video {
 
 #contact-btn {
     background-color: #E3BB8A;
-    color: #ffffff;
-    border-bottom: 2px solid #E3BB8A;
+    color: #000000;
+    border-bottom: 2px solid #ffffff;
     height: 50px;
     font-size: 20px;
     width: 100%;
 }
 
 #contact-btn:hover {
-    background-color: #E3BB8A;
+    background-color: #000000;
 }
 
 .img-courses {
     object-fit: cover;
     height: 250px;
     width: 100%;
-    margin-bottom: 0;
+    margin: 0;
+    border-top: 2px solid #ffffff;
 }
 
 /* CONTACT */
@@ -562,9 +552,6 @@ video {
     text-transform: uppercase;
 }
 
-#contact-container-2>hr {
-    border: 2px solid #E3BB8A;
-}
 
 #address-container,
 #openings-container {
@@ -574,6 +561,7 @@ video {
 
 #address-container {
     border-right: 2px solid #E3BB8A;
+    height: 100%;
 }
 
 
@@ -712,21 +700,11 @@ a {
 /* for larger to medium screens size from 1200px wide and down */
 
 @media screen and (max-width: 1200px) {
-    #home-content {
-        /* display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(2, 1fr); */
-        width: 100%;
-        height: auto;
-        /* row-gap: 50px; */
-        column-gap: 50px;
-        margin: 50px;
-        padding: 0;
 
-    }
 
     #about-container-1 {
         height: auto;
+        margin: 50px 0 50px 0;
     }
 
     #about-container-1>h1 {}
@@ -738,6 +716,7 @@ a {
     #courses-btn {
         margin: 25px 0 25px 0;
         width: 100%;
+        border-bottom: 2px solid #ffffff;
     }
 
     #courses-content {
@@ -745,21 +724,20 @@ a {
     }
 
     #courses-container-1 {
-        border: 2px solid #E3BB8A;
+        border: 2px solid #ffffff;
         background-color: #000000;
         color: #ffffff;
         display: grid;
         text-align: left;
         grid-row-start: 1;
         grid-column-start: column1-start;
-
         grid-column: 1 / 6;
         height: auto;
         width: 100%;
     }
 
     #courses-container-2 {
-        border: 2px solid #E3BB8A;
+        border: 2px solid #ffffff;
         background-color: #000000;
         color: #ffffff;
         display: grid;
@@ -773,7 +751,7 @@ a {
     }
 
     #courses-container-3 {
-        border: 2px solid #E3BB8A;
+        border: 2px solid #ffffff;
         background-color: #000000;
         color: #ffffff;
         display: grid;
@@ -789,122 +767,86 @@ a {
 /* for medium screen sizes from 950px wide and down */
 
 @media screen and (max-width: 950px) {
+
+    /* HOME */
+
     #home-content {
-        display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(2, 1fr);
+        row-gap: 50px;
         width: 100%;
-        height: auto;
-        column-gap: 0;
         justify-content: center;
         align-items: center;
-        padding: 0;
+
+
     }
 
     #home-container-1 {
-        border: 2px solid #E3BB8A;
-        background-color: #000000;
-        color: #ffffff;
-        display: grid;
         grid-row-start: 1;
-        grid-column-start: column1-start;
-        grid-column: 1 / 6;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 2;
         height: auto;
-        width: 100%;
-        margin: 0;
-        padding: 0;
     }
 
-    #home-container-1>h1 {
-        margin-bottom: 50px;
-        line-height: 50px;
-    }
 
-    #home-container-1>p,
-    #home-container-2>p {
-        font-size: 20px;
-    }
 
 
     #home-container-2 {
-        /* border: 2px solid #E3BB8A; */
-        background-color: #000000;
-        color: #ffffff;
-        display: grid;
         grid-row-start: 2;
-        grid-column-start: column1-start;
-        grid-column: 1 / 6;
-        height: auto;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 2;
         width: 100%;
+        margin: 0;
+        height: auto;
     }
+
+    /* #about-btn {
+        border: 2px solid #ffffff;
+        background-color: #E3BB8A;
+        color: #000000;
+        font-family: 'Fahkwang', sans-serif, 'Montserrat';
+        font-size: 20px;
+        width: 50%;
+        margin: 25px 0 0 0;
+        padding: 5px;
+    } */
+
+    /* ABOUT */
 
     #about-content {
         display: grid;
-        grid-template-columns: 1fr;
         grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: 1fr;
         width: 100%;
         height: auto;
-        /* row-gap: 50px; */
-        column-gap: 0;
         justify-content: center;
         align-items: center;
-        /* margin: 100px 50px 100px 50px; */
-        padding: 0;
     }
 
     #about-container-1 {
-        border: 2px solid #E3BB8A;
-        background-color: #000000;
-        color: #ffffff;
-        display: grid;
         grid-row-start: 1;
-        grid-column-start: column1-start;
-        grid-column: 1 / 6;
-        height: auto;
-        width: 100%;
-        margin: 0;
-        padding: 0;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 2;
     }
 
     #about-container-2 {
-        /* border: 2px solid #E3BB8A; */
-        background-color: #000000;
-        color: #ffffff;
-        display: grid;
         grid-row-start: 2;
-        grid-column-start: column1-start;
-        grid-column: 1 / 6;
-        height: auto;
-        width: 100%;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 2;
     }
-
-    #about-btn {
-        border: 2px solid #E3BB8A;
-        background-color: #000000;
-        color: #ffffff;
-        font-family: 'Fahkwang', sans-serif, 'Montserrat';
-        font-size: 30px;
-        width: 100%;
-        margin-bottom: 50px;
-        padding: 10px 0 10px 0;
-    }
-
-
-
 
     #contact-content {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(3, 1fr);
         width: 100%;
-        /* height: 1142px; */
-        /* height: 1296px; */
         height: 1210.5px;
         row-gap: 50px;
         column-gap: 50px;
-        /* justify-content: center;
-        align-items: center; */
-        /* margin: 50px; */
         padding: 0;
         margin-top: 50px;
         margin-bottom: 50px;
@@ -980,17 +922,24 @@ a {
         height: 400px;
         width: 100%;
         margin: 0;
+
+
     }
 
     #address-container,
     #openings-container {
         display: block;
+        justify-self: center;
+        place-self: center;
+        height: 100%;
+
+
     }
 
     #address-container {
+        width: 100%;
         border-bottom: 2px solid #E3BB8A;
         border-right: none;
-
     }
 
 }
