@@ -15,7 +15,7 @@ header {
     margin: auto;
 }
 
-#logo {
+.logo {
     border: 1px solid #ffffff;
     height: 100px;
     width: 100px;
@@ -35,13 +35,13 @@ header {
     margin-top: 15px;
 }
 
-#logo>h1 {
+.logo>h2 {
     color: #E3BB8A;
     text-align: center;
     font-size: 20px;
 }
 
-#logo>h4 {
+.logo>h4 {
     color: #ffffff;
     text-align: center;
     font-size: 10px;
@@ -160,6 +160,8 @@ video {
     height: 350px;
     /* margin: 50px 0 50px 0; */
     text-align: center;
+
+
 }
 
 
@@ -170,10 +172,11 @@ video {
     font-family: 'Fahkwang', sans-serif, 'Montserrat';
     font-size: 20px;
     width: 50%;
-
-
+    height: 40px;
     margin: 25px 0 0 0;
     padding: 5px;
+
+    place-self: center;
 }
 
 /* ABOUT */
@@ -360,6 +363,7 @@ video {
 
 #contact-btn:hover {
     background-color: #000000;
+    color: #ffffff;
 }
 
 .img-courses {
