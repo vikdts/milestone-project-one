@@ -245,7 +245,7 @@ video {
     font-family: 'Fahkwang', sans-serif, 'Montserrat';
     font-size: 15px;
     text-align: left;
-    margin: 10px 50px 10px 50px;
+    margin: 20px;
     position: absolute;
     left: 0;
     top: 150px;
@@ -352,9 +352,10 @@ video {
     grid-column-start: 3;
     grid-row-start: row1-start;
     height: 800px;
+
 }
 
-#contact-btn {
+.contact-btn {
     background-color: #E3BB8A;
     color: #000000;
     border-bottom: 2px solid #ffffff;
@@ -374,6 +375,8 @@ video {
     width: 100%;
     margin: 0;
     border-top: 2px solid #ffffff;
+
+
 }
 
 /* CONTACT */
@@ -952,6 +955,11 @@ a {
 
 @media screen and (max-width: 800px) {
 
+    #about-btn {
+        font-size: 14px;
+        width: 75%;
+    }
+
 
     #menu,
     li {
@@ -994,5 +1002,39 @@ a {
     footer {
         height: 400px;
     }
+
+}
+
+/* for medium screen sizes from 350px wide and down */
+
+@media screen and (max-width: 500px) {
+
+    /* CONTACT */
+
+    #address-container>h2,
+    #openings-container>h2 {
+        font-size: 15px;
+    }
+
+    #address-container>h3,
+    #openings-container>h3 {
+        font-size: 12px;
+    }
+
+}
+
+/* for medium screen sizes from 350px wide and down */
+
+@media screen and (max-width: 350px) {
+
+
+    /* ABOUT */
+
+    #about-container-1>p,
+    #about-container-2>p {
+        top: 80px;
+        font-size: 12px;
+    }
+
 
 }
