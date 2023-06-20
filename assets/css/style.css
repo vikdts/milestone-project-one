@@ -199,7 +199,8 @@ video {
     background-color: #000000;
     width: 100%;
     column-gap: 50px;
-    margin: 50px;
+    row-gap: 50px;
+    margin: 0 50px 50px 50px;
     align-items: center;
 
 }
@@ -716,9 +717,6 @@ a {
 @media screen and (max-width: 1200px) {
 
 
-    #about-content {
-        row-gap: 50px;
-    }
 
     #courses-btn {
         width: 75%;
@@ -820,6 +818,8 @@ a {
         height: auto;
         justify-content: center;
         align-items: center;
+        margin-top: 50px;
+        /* row-gap: 0; */
     }
 
     #about-container-1 {
@@ -835,6 +835,8 @@ a {
         grid-column-start: 1;
         grid-column-end: 2;
     }
+
+    /* CONTACT */
 
     #contact-content {
         display: grid;
