@@ -143,6 +143,10 @@ Users of this website will be able to find information on variety of dive sites 
 
 ### When I ran my html code through W3C validator I found out my buttons do not work, because I had incorrectly used input as a descendant of a element. This was solved with a button element wrapped in a form with the correct path in action attribute.
 
+### One of the bugs that did not go through the W3C validator was a duplicate ID on social icons, intented as a class attribute.
+
+### An error I received in my CSS was the non value "none", of the background-color property, which I ended up having, while testing the contrast of the color palette. 
+
 # Validator testing
 
 ## HTML
